@@ -18,7 +18,7 @@ export default function handler(req, res) {
 
   axios(config)
     .then(function (response) {
-      // console.log("RESPONSE DATA", response.data.data[0]);
+      console.log("RESPONSE DATA", response.data.data[0]);
       res.status(200).json(response.data.data[0]);
     })
     .catch(function (error) {

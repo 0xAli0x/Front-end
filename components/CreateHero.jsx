@@ -34,8 +34,20 @@ export default function CreateHero() {
         alt="LandingPage"
         className="object-fit: cover w-full h-full"
         />
-        <div className="relative mx-auto h-96 w-96 bottom-3/4">
+        <div className="relative mx-auto h-96 w-96 bottom-3/4 right-3">
           <VectorImage  />
+          <div className="relative w-64 bottom-60 mx-auto text-4xl right-10">
+          <p><strong>Build</strong> character, </p>
+          </div>
+          <div className="relative w-80 bottom-56 mx-auto text-4xl right-2">
+          <p><strong>SAVE THE WORLD</strong></p>
+          </div>
+          <div className="relative w-80 bottom-52 mx-auto text-xl right-2">
+           <p>Generate character art for your</p>
+          </div>
+          <div className="relative w-80 bottom-52 mx-auto text-xl w-46 right-2">
+          <p>tabletop game in seconds</p>
+          </div>
         </div>
         <div className="relative mx-auto bottom-3/4 h-32 w-32">
           <Button />
@@ -67,7 +79,6 @@ export default function CreateHero() {
 </svg>
 
         </div>
-       
       </div>
     
   );

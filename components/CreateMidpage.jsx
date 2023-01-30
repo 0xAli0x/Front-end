@@ -7,10 +7,12 @@ import choiceIcon from "../public/images/CREATE-midpage/icon3.png";
 import nftIcon from "../public/images/CREATE-midpage/icon4.png";
 import communityIcon from "../public/images/CREATE-midpage/icon5.png";
 import diceIcon from "../public/images/CREATE-midpage/icon6.png";
+
 export default function CreateMidpage() {
   return (
     
-    <div className="m-1 p-1">
+    <div className="m-1 p-1 bg-red-700" >
+     
       {/* Content in the center */}
       <div className="flex md:flex-nowrap flex-wrap bg-[#0F1E31] h-full flex-col m-12 p-8 shadow-lg mt-5">
         <h1 className="pb-2 text-xl underline font-medium">Operation Dragonborn</h1>
@@ -26,7 +28,7 @@ export default function CreateMidpage() {
 
       {/* Intruction Cards 1 - Responsive by Tippi */}
       <div className="flex justify-around flex-col mb-5 mr-12 ml-12 md:flex-row items-center">
-        <div className="flex container flex-row sm:flex-col md:w-1/4 justify-center align-center items-center bg-[#110402] p-6 w-4/5 m-3">
+        <div className="flex container flex-row sm:flex-col md:w-1/4 justify-center align-center items-center bg-[#110402] p-6 w-4/5 m-3 border-2 border-black-500 hover:border-gray-500 ">
           <p className="justify-center text-center">
             Upload Standard Character Sheet PDF
           </p>

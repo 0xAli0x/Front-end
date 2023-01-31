@@ -11,7 +11,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import Trynow from "./Trynow";
 import VectorImage from "./VectorImage";
 import Button from "./Button";
-
+import ToolTip from "./ToolTip";
 
 export default function CreateHero() {
   return (
@@ -21,12 +21,12 @@ export default function CreateHero() {
         <div className="relative flex justify-center bg-pink-400">
           <div className="absolute top-2">
           <p>Version 0.1.13</p>
+          <div className="absolute top-9 mx-auto left-20">
+        <ToolTip text="Hello" />
+      </div>
           </div>
       <div className="absolute top-8">
-        <HamburgerMenu />
-        
-    
-        
+        <HamburgerMenu />  
       </div>
       <div className="w-full max-h-screen">
       <Image 
@@ -34,6 +34,7 @@ export default function CreateHero() {
         alt="LandingPage"
         className="object-fit: cover w-full h-full"
         />
+       
         <div className="relative mx-auto h-96 w-96 bottom-3/4 right-3">
           <VectorImage  />
           <div className="relative w-64 bottom-60 mx-auto text-4xl right-10">
@@ -51,6 +52,9 @@ export default function CreateHero() {
         </div>
         <div className="relative mx-auto bottom-3/4 h-32 w-32">
           <Button />
+          <div className="absolute top-11 mx-auto left-36">
+        <ToolTip text="Hello" />
+      </div>
           </div>
         </div>
         
